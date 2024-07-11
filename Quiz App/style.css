@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: brown;
+  color: wheat;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0rem 5rem;
+  height: 35rem;
+  width: 30rem;
+  border: 2px solid wheat;
+  border-radius: 25px;
+}
+
+#options-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+button {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  width: 15rem;
+  height: 3rem;
+  background-color: brown;
+  border: 2px solid wheat;
+  color: wheat;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  font-size: 2rem;
+}
